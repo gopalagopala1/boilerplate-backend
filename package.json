@@ -16,7 +16,7 @@
     "node", 
     "server"
   ],
-  "author": "Your Name",
+  "author": "Gopala Agrawal",
   "license": "ISC",
   "description": "A simple backend boilerplate with Express, TypeScript, and Nodemon.",
   "dependencies": {
