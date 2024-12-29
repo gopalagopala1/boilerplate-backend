@@ -1,14 +1,24 @@
 {
-  "name": "gopalas-backend-boilerplate",
+  "name": "ts-nodemon-template",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src/index.ts", 
+    "dev": "nodemon -r ts-node/register src/index.ts", 
+    "build": "tsc", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express", 
+    "typescript", 
+    "backend", 
+    "boilerplate", 
+    "node", 
+    "server"
+  ],
+  "author": "Your Name",
   "license": "ISC",
-  "description": "backend boiler plate",
+  "description": "A simple backend boilerplate with Express, TypeScript, and Nodemon.",
   "dependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.2",
@@ -23,5 +33,13 @@
     "@types/cors": "^2.8.17",
     "@typescript-eslint/eslint-plugin": "^8.18.2",
     "@typescript-eslint/parser": "^8.18.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gopalagopala1/boilerplate-backend"
+  },
+  "bugs": {
+    "url": "https://github.com/gopalagopala1/boilerplate-backend/issues"
+  },
+  "homepage": "https://github.com/gopalagopala1/boilerplate-backend/#readme"
 }
