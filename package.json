@@ -1,5 +1,5 @@
 {
-  "name": "backend-boilerplate",
+  "name": "gopalas-backend-boilerplate",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "backend boiler plate",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2"
+  }
 }
